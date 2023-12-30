@@ -18,3 +18,6 @@
     margin-left: 10%;
     color: white;
 }
+.carousel-inner{
+    height:700px;
+}
