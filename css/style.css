@@ -2,10 +2,19 @@
     margin: 0px;
     padding: 0px;
 }
-.barra_menu{
-    background-color: gray;
-    height:40px;
+html{
+    scroll-behavior: smooth;
 }
+.barra_menu{
+    background-color:  rgba(50, 50, 50, 0.8);
+    height:40px;
+    position: fixed;
+    background-size: cover;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
 .barra_menu #items{
     display: flex;
     font-size: 20px;
@@ -20,4 +29,27 @@
 }
 .carousel-inner{
     height:700px;
+}
+
+/*ZONA DE ESTILOS DE PRESENTACION*/
+.seccion_presentacion{
+    display: flex;
+    margin: 5%;
+   
+}
+
+.informacion{
+    width: 200%;
+    border: 2px solid black;
+}
+
+.images_presentacion{
+    width:5000px;
+}
+.images_presentacion img{
+    width: 80%;
+    float: right;
+    border-radius: 10px;
+
+    border: 2px solid black;
 }
